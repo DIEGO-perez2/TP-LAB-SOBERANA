@@ -5,22 +5,28 @@
 Descripción:
 Instalación y ejecución local de un modelo LLM utilizando herramientas open source dentro de una máquina virtual Linux. Se documenta el proceso de clonación del repositorio, configuración del entorno y pruebas iniciales.
 
-#Integrante 2
+##Integrante 2
+[infraestructura.md](https://github.com/user-attachments/files/28241822/infraestructura.md)
+# Infraestructura.md - Integrante 2
+Descripcion: Instalacion de Podman Desktop con WSL2. Creacion de la maquina virtual con 2CPUs, 2 GB de RAM y 10 GB de disco, ejecucion del contenedor de Ollama en el puerto 11434, descarga del modelo qwen2.5:0.5b de 397 MB, verificacion del funcionamiento con Ollama list y navegador, configuracion de la IP 192.168.56.1 y exposicion del servidor en http://192.168.56.1:11434
+
 
 ## Comandos utilizados
 
-#Crear máquina de Podman
+```bash
+# Crear máquina de Podman
 podman machine init --cpus 2 --memory 2048 --disk-size 10
 
-#Iniciar máquina
+# Iniciar máquina
 podman machine start
 
-#Ejecutar Ollama
+# Ejecutar Ollama
 podman run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama docker.io/ollama/ollama
 
-#Descargar modelo
+# Descargar modelo
 podman exec ollama ollama pull qwen2.5:0.5b
 ## IP del servidor
+
 - **IP:** `192.168.56.1`
 - **Puerto:** `11434`
 - **URL:** `http://192.168.56.1:11434`
@@ -28,18 +34,6 @@ podman exec ollama ollama pull qwen2.5:0.5b
 - **Nombre:** `qwen2.5:0.5b`
 - **Tamaño:** 397 MB
 
-## evidencia
-Ollama corriendo
-
-
-.<img width="546" height="152" alt="ollama-running png" src="https://github.com/user-attachments/assets/40a2110b-621f-4a59-acf1-a0959f4a83c8" />
-
-
-
-
-Modelo descargado
-
-
-
-<img width="1317" height="878" alt="modelo-list png" src="https://github.com/user-attachments/assets/8c036ea5-f2cb-41cc-bece-0ca7aac9b3d5" />
-
+#evidencia
+![Ollama corriendo](ollama-running-1.png)
+![Modelo](modelo-list-1.png)
