@@ -9,7 +9,7 @@ Instalación y ejecución local de un modelo LLM utilizando herramientas open so
 [infraestructura.md](https://github.com/user-attachments/files/28279416/infraestructura.md)
 
 # Infraestructura.md - Integrante 2
-Descripcion: Instalacion de Podman Desktop con WSL2. Creacion de la maquina virtual con 2CPUs, 2 GB de RAM y 10 GB de disco, ejecucion del contenedor de Ollama en el puerto 11434, descarga del modelo qwen2.5:0.5b de 397 MB, verificacion del funcionamiento con Ollama list y navegador, configuracion de la IP 192.168.56.1 y exposicion del servidor en http://localhost:11434/
+Descripcion: Instalacion de Podman Desktop con WSL2. Creacion de la maquina virtual con 2CPUs, 2 GB de RAM y 10 GB de disco, ejecucion del contenedor de Ollama en el puerto 11434, descarga del modelo qwen2.5:0.5b de 397 MB, verificacion del funcionamiento con Ollama list y navegador, exposicion del servidor en http://localhost:11434/
 
 ## Comandos utilizados
 
