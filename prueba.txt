@@ -1,0 +1,3 @@
+El software libre permite utilizar, modificar y compartir programas libremente.
+La soberanía tecnológica evita depender de plataformas privativas.
+Linux y las herramientas open source son fundamentales para la independencia tecnológica.
