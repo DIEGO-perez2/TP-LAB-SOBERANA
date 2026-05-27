@@ -12,18 +12,9 @@ Descripcion: Instalacion de Podman Desktop con WSL2. Creacion de la maquina virt
 
 ## Comandos utilizados
 
-#Evidencia
-Ollama Corriendo ( " Ollama Running")
 
 
 
-<img width="546" height="152" alt="ollama-running" src="https://github.com/user-attachments/assets/cfcdcd9d-80ca-4a5f-a6bb-d67703a902c7" />
-
-
-Modelo descargado   
-
-
-<img width="1317" height="878" alt="modelo-list" src="https://github.com/user-attachments/assets/ba1d2c12-7bc7-4c3a-9230-63fa64e17ba1" />
 
 
 
@@ -53,6 +44,30 @@ podman exec ollama ollama pull qwen2.5:0.5b
 - **Nombre:** `qwen2.5:0.5b`
 - **Tamaño:** 397 MB
 ```
+#Evidencia
+
+
+
+
+Modelo descargado   
+
+
+<img width="1317" height="878" alt="modelo-list" src="https://github.com/user-attachments/assets/ba1d2c12-7bc7-4c3a-9230-63fa64e17ba1" />
+
+
+
+
+
+Ollama Corriendo ( " Ollama Running")
+
+
+
+<img width="546" height="152" alt="ollama-running" src="https://github.com/user-attachments/assets/cfcdcd9d-80ca-4a5f-a6bb-d67703a902c7" />
+
+
+
+
+
 
 
 
