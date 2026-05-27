@@ -40,5 +40,8 @@ podman exec ollama ollama pull qwen2.5:0.5b
 - **Tamaño:** 397 MB
 
 #evidencia
-![Ollama corriendo](ollama-running-1.png)
-![Modelo](modelo-list-1.png)
+<img width="546" height="152" alt="ollama-running" src="https://github.com/user-attachments/assets/150eac09-a503-4d93-a3ca-d4aa522b955e" />
+<img width="1317" height="878" alt="modelo-list" src="https://github.com/user-attachments/assets/9441dd8f-1682-4fbf-96a7-4d5de535e3e1" />
+
+
+
