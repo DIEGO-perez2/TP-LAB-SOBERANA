@@ -50,12 +50,9 @@ podman exec ollama ollama pull qwen2.5:0.5b
 ## Modelo usado
 - **Nombre:** `qwen2.5:0.5b`
 - **Tamaño:** 397 MB
-
-
-
 - **Nombre:** `qwen2.5:0.5b`
 - **Tamaño:** 397 MB
-
+```
 
 
 
