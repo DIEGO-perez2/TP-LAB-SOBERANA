@@ -66,6 +66,35 @@ Ollama Corriendo ( " Ollama Running")
 
 
 
+# Scripting.md - Integrante 3
+
+## Descripción
+
+Se desarrolló un script en Python utilizando el paradigma de Vibe Coding.  
+El código fue generado mediante asistencia de IA y probado contra el servidor local de Ollama desplegado por el Integrante 2.
+
+## Modelo utilizado
+
+- Modelo: qwen2.5:0.5b
+- Endpoint: http://localhost:11434/api/generate
+
+## Prompt inicial utilizado
+
+```txt
+Genera un script en Python que lea un archivo de texto y lo envíe a la API local de Ollama para obtener un resumen de 3 líneas.
+```
+Capturas de conversacion con IA( Chat GPT)
+
+<img width="1280" height="636" alt="conversacion ia" src="https://github.com/user-attachments/assets/0a896fa2-c3d3-4fa5-89c3-131e0d77117c" />
+
+
+
+
+
+
+
+<img width="1222" height="786" alt="scrip" src="https://github.com/user-attachments/assets/1916c13b-abff-4604-922f-e24bd356a295" />
+
 
 
 
