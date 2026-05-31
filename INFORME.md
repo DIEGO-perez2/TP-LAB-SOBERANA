@@ -4,82 +4,75 @@
 
 | Integrante      | Rol             |
 | --------------- | --------------- |
-| Diego Perez     | Maintainer      |
+| Diego Pérez     | Maintainer      |
 | Selena Cayumil  | Infraestructura |
-| Rocio Farinelli | Script          |
+| Rocío Farinelli | Scripting       |
 
----
+## Introducción
 
-# Introducción
+El presente trabajo tuvo como objetivo implementar un laboratorio colaborativo utilizando herramientas de software libre y un modelo de inteligencia artificial ejecutado localmente. Para ello se emplearon entornos virtualizados, control de versiones mediante Git y trabajo colaborativo a través de GitHub.
 
-Este trabajo práctico tuvo como objetivo implementar un laboratorio virtual colaborativo utilizando herramientas open source y un flujo de trabajo basado en Git y GitHub.
-
----
-
-# Objetivos
-
-## Objetivo general
-
-Implementar un entorno virtual colaborativo aplicando control de versiones y trabajo en equipo.
-
-## Objetivos específicos
-
-* Configurar una máquina virtual.
-* Utilizar Git y GitHub.
-* Aplicar trabajo colaborativo mediante ramas.
-* Documentar el proceso realizado.
-
----
-
-# Herramientas utilizadas
+## Herramientas utilizadas
 
 * VirtualBox
-* Linux
+* Ubuntu Linux
 * Git
 * GitHub
-* Markdown
-* Podman Destok
+* Podman Desktop
 * Ollama
-* Qwen 2.5:0.5b
+* Modelo Qwen 2.5:0.5b
 
----
+## Distribución de Roles
 
-# Desarrollo del laboratorio
+### Maintainer - Diego Pérez
 
-## Configuración inicial
+Responsable de la administración del repositorio, integración de cambios mediante Pull Requests, organización de ramas y consolidación de la documentación final.
 
-## Creación del entorno virtual
+### Infraestructura - Selena Cayumil
 
-## Configuración Git
+Responsable de la instalación y configuración del entorno Linux, herramientas de virtualización y ejecución local del modelo.
 
----
+### Scripting - Rocío Farinelli
 
-# Flujo Git implementado
+Responsable del desarrollo de scripts y automatizaciones requeridas por la consigna.
 
-## Rama main
+## Flujo Git Implementado
 
-## Rama maintainer-setup
+Cada integrante trabajó sobre una rama independiente para evitar conflictos y permitir un desarrollo paralelo.
 
----
+* principal
+* maintainer-setup
+* infraestructura
+* scripting
 
-# Evidencias
+Los cambios fueron integrados mediante Pull Requests revisados por el maintainer.
 
-## Capturas de commits
+## Desarrollo
 
-## Capturas de ramas
+### Configuración del entorno virtual
 
-## Capturas de configuración
+Se creó una máquina virtual utilizando VirtualBox con Ubuntu Linux como sistema operativo base.
 
----
+### Configuración de Git
 
-# Problemas encontrados
+Se configuró Git con credenciales individuales y se vinculó el repositorio remoto alojado en GitHub.
 
-## Soluciones aplicadas
+### Implementación de Ollama
 
----
+Se instaló Ollama y se descargó el modelo Qwen 2.5:0.5b para realizar pruebas locales de inferencia.
 
-# Reflexión sobre soberanía tecnológica
+## Problemas Encontrados
 
----
+Durante el desarrollo surgieron inconvenientes relacionados con permisos, sincronización de ramas y configuración del entorno virtual.
 
-# Conclusión
+## Soluciones Aplicadas
+
+Los problemas fueron resueltos mediante actualización de dependencias, corrección de permisos y utilización de Pull Requests para integrar cambios de manera controlada.
+
+## Reflexión sobre Soberanía Tecnológica
+
+La ejecución local de modelos abiertos permite mayor control sobre los datos y reduce la dependencia de servicios externos. Esta experiencia permitió comprender la importancia de utilizar herramientas abiertas para promover independencia tecnológica y transparencia.
+
+## Conclusión
+
+El trabajo permitió integrar virtualización, control de versiones y herramientas de inteligencia artificial dentro de un entorno colaborativo. La utilización de ramas, Pull Requests y roles diferenciados facilitó la organización del proyecto y la trazabilidad de las contribuciones de cada integrante.
