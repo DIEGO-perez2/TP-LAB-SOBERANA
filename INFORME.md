@@ -2,17 +2,17 @@
 
 ## Integrantes
 
-| Integrante      | Rol             |
-| --------------- | --------------- |
-| Diego Pérez     | Maintainer      |
-| Selena Cayumil  | Infraestructura |
-| Rocío Farinelli | Scripting       |
+| Integrante      | Rol                     |
+| --------------- | ----------------------- |
+| Diego Pérez     | Mantenedor              |
+| Selena Cayumil  | Infraestructura         |
+| Rocío Farinelli | Programación de scripts |
 
 ## Introducción
 
 El presente trabajo tuvo como objetivo implementar un laboratorio colaborativo utilizando herramientas de software libre y un modelo de inteligencia artificial ejecutado localmente. Para ello se emplearon entornos virtualizados, control de versiones mediante Git y trabajo colaborativo a través de GitHub.
 
-## Herramientas utilizadas
+## Herramientas Utilizadas
 
 * VirtualBox
 * Ubuntu Linux
@@ -24,15 +24,15 @@ El presente trabajo tuvo como objetivo implementar un laboratorio colaborativo u
 
 ## Distribución de Roles
 
-### Maintainer - Diego Pérez
+### Diego Pérez - Mantenedor
 
 Responsable de la administración del repositorio, integración de cambios mediante Pull Requests, organización de ramas y consolidación de la documentación final.
 
-### Infraestructura - Selena Cayumil
+### Selena Cayumil - Infraestructura
 
 Responsable de la instalación y configuración del entorno Linux, herramientas de virtualización y ejecución local del modelo.
 
-### Scripting - Rocío Farinelli
+### Rocío Farinelli - Programación de Scripts
 
 Responsable del desarrollo de scripts y automatizaciones requeridas por la consigna.
 
@@ -40,16 +40,18 @@ Responsable del desarrollo de scripts y automatizaciones requeridas por la consi
 
 Cada integrante trabajó sobre una rama independiente para evitar conflictos y permitir un desarrollo paralelo.
 
-* principal
+### Ramas utilizadas
+
+* main
 * maintainer-setup
 * infraestructura
 * scripting
 
-Los cambios fueron integrados mediante Pull Requests revisados por el maintainer.
+Cada integrante realizó commits en su rama correspondiente. Posteriormente los cambios fueron integrados al repositorio principal mediante Pull Requests revisados y fusionados por el mantenedor.
 
 ## Desarrollo
 
-### Configuración del entorno virtual
+### Configuración del Entorno Virtual
 
 Se creó una máquina virtual utilizando VirtualBox con Ubuntu Linux como sistema operativo base.
 
@@ -71,7 +73,7 @@ Los problemas fueron resueltos mediante actualización de dependencias, correcci
 
 ## Reflexión sobre Soberanía Tecnológica
 
-La ejecución local de modelos abiertos permite mayor control sobre los datos y reduce la dependencia de servicios externos. Esta experiencia permitió comprender la importancia de utilizar herramientas abiertas para promover independencia tecnológica y transparencia.
+La ejecución local de modelos abiertos permite un mayor control sobre los datos y reduce la dependencia de servicios externos. Esta experiencia permitió comprender la importancia de utilizar herramientas abiertas para promover la independencia tecnológica, la transparencia y el acceso al conocimiento.
 
 ## Conclusión
 
